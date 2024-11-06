@@ -2,8 +2,34 @@
 👋🏼 Hey there, Data Enthusiast!<br><br>
 
 ```python
-<br># Welcome to my corner of GitHub!<br><br>class DataScienceExplorer:<br>    <br>    def __init__(self):<br>        self.name = "Arvindh Bharadwaj Venkatesan"<br>        self.mission = "Turning data into insights"<br>        self.github_handle = "arvindh05"<br>        self.specialties = ["Data Science", "NLP", "Machine Learning"]<br>        self.skills = {<br>            "languages": ["Python", "R", "SQL", "C", "C++"],<br>            "tools": ["Spark", "Tableau", "AWS", "MySQL", "MATLAB" ],<br>            "libraries": ["scikit-learn", "pandas", "nltk", "numpy", "scipy", "tensorflow","transformers", "etc..."]<br>        }<br><br>    def intro(self):<br>        return f"Hi, I'm {self.name} 👨‍💻! I’m passionate about {', '.join(self.specialties)} and making sense of complex data."<br><br>    def hobbies(self):<br>        return [<br>            "<br>Certainly! Here’s the line with a badminton emoji: [<br>            "🏸 Badminton Enthusiast",<br>            "🎥 Movie Buff",<br>            "🤖 Robotics & Automation Fan"<br>        ]<br><br>arvindh = DataScienceExplorer()<br>print(arvindh.intro())<br>print("Fun Facts:", arvindh.hobbies())<br>
-```
+# Welcome to my corner of GitHub!
+
+class DataScienceExplorer:
+    
+    def __init__(self):
+        self.name = "Arvindh Bharadwaj Venkatesan"
+        self.mission = "Turning data into insights"
+        self.github_handle = "arvindh05"
+        self.specialties = ["Data Science", "NLP", "Machine Learning"]
+        self.skills = {
+            "languages": ["Python", "R", "SQL", "C", "C++"],
+            "tools": ["Spark", "Tableau", "AWS", "MySQL", "MATLAB"],
+            "libraries": ["scikit-learn", "pandas", "nltk", "numpy", "scipy", "tensorflow", "transformers", "etc..."]
+        }
+
+    def intro(self):
+        return f"Hi, I'm {self.name} 👨‍💻! I’m passionate about {', '.join(self.specialties)} and making sense of complex data."
+
+    def hobbies(self):
+        return [
+            "🏸 Badminton Enthusiast",
+            "🎥 Movie Buff",
+            "🤖 Robotics & Automation Fan"
+        ]
+
+arvindh = DataScienceExplorer()
+print(arvindh.intro())
+print("Fun Facts:", arvindh.hobbies())
 
 
 ## 🌐 Socials:
